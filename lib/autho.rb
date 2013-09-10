@@ -1,5 +1,5 @@
 require "autho/version"
+require "autho/authentication"
 
 module Autho
-  # Your code goes here...
 end

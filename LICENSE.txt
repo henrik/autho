@@ -1,4 +1,4 @@
-Copyright (c) 2013 Henrik N
+Copyright (c) 2013 Henrik Nyh
 
 MIT License
 

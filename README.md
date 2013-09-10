@@ -1,6 +1,14 @@
 # Autho
 
-TODO: Write a gem description
+**NOTE:** Very much a work in progress.
+
+A many-stop-shop for authentication.
+
+I've looked at various authentication gems and feel they do too much. I don't want a framework where I override some things. I want a helpful library to handle some things and leave me to bring it all together.
+
+If you agree, Autho may be for you.
+
+Autho is made to work well with Rails but not to be tied to it.
 
 ## Installation
 
@@ -18,7 +26,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Todo. See specs.
+
+Current parts:
+
+  * `Autho::Authentication` to verify email and password.
 
 ## Contributing
 
