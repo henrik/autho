@@ -5,10 +5,6 @@ module Autho
   class Authentication
     pattr_initialize :finder, :email, :password
 
-    def self.digest(unencrypted_password)
-      BCrypt::Password.create(unencrypted_password)
-    end
-
     def user
       user = finder.find_by_email(email)
       user && authenticate(user, password)
