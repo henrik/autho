@@ -33,6 +33,13 @@ Current parts:
   * `Autho::Authentication` to find a user from email and password.
   * `Autho::Session` to store, get and remove user from the session.
 
+## TODO
+
+* More specs
+* Polish API
+* Depend and document the redirect-after-logging-in gem
+* "Remember me"?
+
 ## Contributing
 
 1. Fork it
