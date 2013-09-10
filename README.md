@@ -30,7 +30,8 @@ Todo. See specs.
 
 Current parts:
 
-  * `Autho::Authentication` to verify email and password.
+  * `Autho::Authentication` to find a user from email and password.
+  * `Autho::Session` to store, get and remove user from the session.
 
 ## Contributing
 
