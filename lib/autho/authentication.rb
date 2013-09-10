@@ -17,6 +17,7 @@ module Autho
     private
 
     def authenticate(user, unencrypted_password)
+      # This is BCcrypt being cryptic. It overrides "==" to compare hashes.
       if BCrypt::Password.new(user.password_digest) == unencrypted_password
         user
       else
