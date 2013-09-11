@@ -44,7 +44,6 @@ Current parts:
 * Polish API
 * Replicate SecurePassword?
 * "Remember me"?
-* Depend and document the redirect-after-logging-in gem
 * Memoize in session?
 * Examples of use in real code, maybe something like a sample app
 
