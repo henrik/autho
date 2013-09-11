@@ -8,7 +8,7 @@ I've looked at various authentication gems and feel they do too much. I don't wa
 
 If you agree, Autho may be for you.
 
-Autho is made to work well with Rails but not to be tied to it.
+Autho is made to work well with Rails and Active Record but not to be tied to it. We're using it with [Minimapper](http://github.com/joakimk/minimapper) on one project.
 
 ## Installation
 
