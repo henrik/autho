@@ -26,7 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-Todo. See specs.
+Todo. See `spec` and `examples` dirs.
 
 Current parts:
 
