@@ -33,12 +33,21 @@ Current parts:
   * `Autho::Authentication` to find a user from email and password.
   * `Autho::Session` to store, get and remove user from the session.
 
+## Related
+
+* [ActiveModel::SecurePassword](http://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html) for encrypting passwords, validating confirmation etc.
+* [go_to_param](https://github.com/henrik/go_to_param/) to redirect where you wanted to go after logging in.
+
+
 ## TODO
 
-* More specs
 * Polish API
-* Depend and document the redirect-after-logging-in gem
+* Replicate SecurePassword?
 * "Remember me"?
+* Depend and document the redirect-after-logging-in gem
+* Memoize in session?
+* Examples of use in real code, maybe something like a sample app
+
 
 ## Contributing
 
