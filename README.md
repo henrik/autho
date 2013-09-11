@@ -33,6 +33,16 @@ Current parts:
   * `Autho::Authentication` to find a user from email and password.
   * `Autho::Session` to store, get and remove user from the session.
 
+
+## FAQ
+
+### How about "remember me" functionality?
+
+We haven't had the need for a checkbox with this library; we just remember all sessions for a long time.
+
+Just add something like `expire_after: 12.months` to the session cookie options in Rails' `config/initializers/session_store.rb`.
+
+
 ## Related
 
 * [ActiveModel::SecurePassword](http://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html) for encrypting passwords, validating confirmation etc.
@@ -43,7 +53,6 @@ Current parts:
 
 * Polish API
 * Replicate SecurePassword?
-* "Remember me"?
 * Memoize in session?
 * Examples of use in real code, maybe something like a sample app
 
