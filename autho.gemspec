@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Autho::VERSION
   spec.authors       = ["Henrik Nyh"]
   spec.email         = ["henrik@nyh.se"]
-  spec.summary       = %q{A many-stop-shop for authentication.}
+  spec.summary       = %q{A many-stop shop for authentication.}
   spec.homepage      = "http://github.com/henrik/autho"
   spec.license       = "MIT"
 
