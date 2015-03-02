@@ -6,10 +6,10 @@ class SessionController < ApplicationController
 
   def create
     if user = Autho::Authentication.new(User, params[:email], params[:password]).user
-      Autho::UserSession.new(self, :user_id, User).user = user
-      redirect_to root_path, flash: { notice: t(:"sessions.successfully_signed_in") }
+      user_session.user = user
+      redirect_to root_path, notice: t(:"sessions.successfully_signed_in")
     else
-      redirect_to :back, flash: { error: t(:"sessions.bad_credentials") }
+      redirect_to :back, error: t(:"sessions.bad_credentials")
     end
   end
 end
