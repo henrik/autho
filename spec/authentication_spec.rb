@@ -1,7 +1,6 @@
-require "spec_helper"
 require "autho/authentication"
 
-describe Autho::Authentication do
+RSpec.describe Autho::Authentication do
   describe "#user" do
     let(:finder) { double }
     let(:user) { double(password_digest: digest("sesame")) }

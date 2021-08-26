@@ -1,7 +1,6 @@
-require "spec_helper"
 require "autho/session"
 
-describe Autho::Session do
+RSpec.describe Autho::Session do
 
   describe "#user" do
     let(:finder) { double }
