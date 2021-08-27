@@ -1,6 +1,6 @@
 # Autho
 
-**NOTE:** Very much a work in progress.
+**NOTE:** Not maintained!
 
 A many-stop shop for authentication.
 
